@@ -11,7 +11,7 @@ body {
 	background-color: #f2f1ed;
 	color: #de4848;
 	padding: 20px;
-	font-size: 3.5em;
+	font-size: clamp(2em,4.5vw,5em);
 	height: 100vh;
 	display: flex;
 	align-items: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .main-heading{
-	font-size: 1.7rem;
+	font-size: clamp(2rem,3.5vw,2.7rem);
 	text-align: center;
 	letter-spacing: 1px;
 	margin-bottom: 1.5em;
@@ -107,7 +107,7 @@ body {
 }
 
 .card-title {
-	font-size: 1rem;
+	font-size: clamp(.8rem,1.5vw,1rem);
 	letter-spacing: 1px;
 	margin-bottom: .5em;
 	color: rgb(29, 27, 27);
